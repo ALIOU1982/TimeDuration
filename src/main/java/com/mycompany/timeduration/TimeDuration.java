@@ -40,7 +40,7 @@ public class TimeDuration {
         int secondes = time % 60;
         String tS;
         if (time < 60) {
-            tS = String.valueOf(minutes) + " secondes";
+            tS = String.valueOf(minutes)+ " minutes "+ String.valueOf(time) + " secondes";
         } else {
             tS = String.valueOf(minutes) + " minutes " + String.valueOf(secondes) + " secondes";
         }
